@@ -1,0 +1,76 @@
+body{
+    font-family:'Courier New', Courier, monospace;
+    background-image: url(https://img.freepik.com/free-photo/white-painted-wall-texture-background_53876-138197.jpg?w=2000);
+    background-repeat: repeat;
+    background-size: contain;
+    color:tan /*This is applied to font color*/
+}
+img{
+    display:block;
+    /*content*/
+    border: 2px solid white;
+    padding: 15px;
+    margin: auto;
+    text-align: center;
+}
+a{
+    color:rgb(26, 195, 145);
+}
+a:visited{
+    color:rgb(35, 167, 123);
+}
+li{
+    font-style: italic;
+}
+li:hover{
+    font: size 105%;
+    text-decoration: underline;
+    background-color:aliceblue
+}
+.image-container{
+    display: flex;
+    flex-direction: row;
+      }
+      
+
+.lovely{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-style: italic;
+    font-weight: bolder;
+    color:darksalmon;
+    background-color:azure;
+    border: 5px dotted ghostwhite;
+}
+.lovely.hover{
+    text-align:center;
+    color:darkseagreen;
+    font-size: large;
+}
+.common{
+    border: 2px solid white;
+    position: absolute;
+}
+.nav{
+    top: 0;
+    right: 0;
+    z-index:1;
+    background-color: blueviolet;
+}
+.footer{
+    position: fixed;
+    background-color:burlywood;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    display: block;
+    text-align: center;
+}
+.content{
+    left: 0;
+    right: 0;
+    text-align: center;
+}
+.gallery img{
+    display: inline;
+    width: 250px;
+}
